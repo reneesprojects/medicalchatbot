@@ -38,18 +38,9 @@ The bot listens to the user through a microphone, transcribes their speech, gene
 - Python 3.12+
 - Anaconda / Conda
 
-### Python Dependencies
-
-```bash
-pip install sounddevice numpy transformers torch librosa pyttsx3 llama-cpp-python
-```
-
 ### Model File
 
 Download the Phi-3 Mini GGUF model and place it in the project folder:
-
-**Model:** `Phi-3-mini-4k-instruct-q4.gguf`  
-**Source:** [Hugging Face — microsoft/Phi-3-mini-4k-instruct-gguf](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-gguf)
 
 > The model file is not included in this repository due to its size (2.28 GB).
 
