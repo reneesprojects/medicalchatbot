@@ -6,14 +6,6 @@ my final year project!!!!!
 A fully offline, voice-enabled conversational bot for common medical knowledge exchange. 
 The system runs entirely on local hardware with no internet connection, no cloud APIs, and no data sent externally — making it suitable for privacy-sensitive healthcare environments.
 
-# Medical Voice Assistant Bot
-
-A fully offline, voice-enabled conversational bot for common medical knowledge exchange. Built as a final year research project at IMU University, Bachelor in Digital Health.
-
-The system runs entirely on local hardware with no internet connection, no cloud APIs, and no data sent externally — making it suitable for privacy-sensitive healthcare environments.
-
----
-
 ## What It Does
 
 The bot listens to the user through a microphone, transcribes their speech, generates a medically-informed response using a local language model, and speaks the response back using text-to-speech. The entire pipeline runs offline on a standard laptop.
@@ -72,7 +64,7 @@ medical-bot/
 - **Echo feedback:** Without earphones, the microphone may pick up the bot's own voice. Earphones are recommended for best performance.
 - **TTS instability:** pyttsx3 occasionally skips audio output on rapid consecutive queries due to macOS audio session threading limitations.
 - **Static knowledge:** The system cannot auto-update medical information as it runs fully offline.
-- **macOS only:** pyttsx3 with the Joelle voice and Apple Metal GPU acceleration are macOS-specific. Deployment on other operating systems would require adjustments.
+- **Developed on macOS:** pyttsx3 with the Joelle voice and Apple Metal GPU acceleration are macOS-specific. Deployment on other operating systems would require adjustments.
 
 **Key finding:** A privacy-preserving voice medical assistant is technically achievable on consumer hardware. It is slower than cloud systems but shares no data externally.
 
