@@ -58,7 +58,7 @@ medical-bot/
 | `duplicate_transcript_window_seconds` | 0.5 | Prevents same phrase being processed twice |
 
 
-## Known Limitations
+## More Info
 
 - **Response latency:** Full pipeline averages 15–20 seconds on CPU. STT + SLM alone averages under 5 seconds; TTS adds the remaining time.
 - **Echo feedback:** Without earphones, the microphone may pick up the bot's own voice. Earphones are recommended for best performance.
